@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="05/14/2020 14:22:26" ReportInfo.Modified="05/14/2020 14:57:17" ReportInfo.CreatorVersion="2013.2.3.0">
+  <Dictionary>
+    <XmlDataConnection Name="Connection" ConnectionString="rijcmlqmmfdjkQxfe1iwShBNGpud378q6VvGL/HcZ56MJVqZXR6qAk6NmbM1wV7FFTbhTMFwYDR2r9P0sRm/MHAfUbP6WJ2Y3lAuckWTGos47S2XsrCan+9FclQmzWPWjSVDB6bg6VAmV8yeL2zbNaSGD4xAO+YAgEx4SBBdQ8cOZJRw7wWwQO/q352zuEJkmOgIr6o">
+      <TableDataSource Name="Order" DataType="System.Int32" Enabled="true" TableName="Order">
+        <Column Name="Id" DataType="System.String"/>
+        <Column Name="Name" DataType="System.String"/>
+        <Column Name="Vid" DataType="System.String"/>
+        <Column Name="Sex" DataType="System.String"/>
+        <Column Name="Count" DataType="System.String"/>
+        <Column Name="Price" DataType="System.String"/>
+        <Column Name="Id_s" DataType="System.String"/>
+        <Column Name="Sum" DataType="System.String"/>
+      </TableDataSource>
+    </XmlDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="66.15">
+      <TextObject Name="Text1" Left="207.9" Top="18.9" Width="226.8" Height="28.35" Text="Ваше замовлення №&#13;&#10;" HorzAlign="Center" Font="Arial, 16pt"/>
+      <TextObject Name="Text2" Left="434.7" Top="18.9" Width="113.4" Height="28.35" Text="[Order.Id]" Font="Arial, 16pt"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="70.15" Width="718.2" Height="28.35">
+      <TextObject Name="Text4" Left="85.05" Width="160.65" Height="18.9" Text="Тварина&#13;&#10;" HorzAlign="Center" Font="Arial, 14pt, style=Italic"/>
+      <TextObject Name="Text6" Left="245.7" Width="141.75" Height="18.9" Text="Вид" HorzAlign="Center" Font="Arial, 14pt, style=Italic"/>
+      <TextObject Name="Text8" Left="387.45" Width="66.15" Height="18.9" Text="Пол" HorzAlign="Center" Font="Arial, 14pt, style=Italic"/>
+      <TextObject Name="Text10" Left="463.05" Width="113.4" Height="18.9" Text="Кількість" HorzAlign="Center" Font="Arial, 14pt, style=Italic"/>
+      <TextObject Name="Text12" Left="585.9" Width="94.5" Height="18.9" Text="Ціна" HorzAlign="Center" Font="Arial, 14pt, style=Italic"/>
+      <TextObject Name="Text16" Left="28.35" Width="56.7" Height="18.9" Text="№" HorzAlign="Center" Font="Arial, 14pt, style=Italic"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="102.5" Width="718.2" Height="37.8" DataSource="Order">
+      <TextObject Name="Text3" Left="85.05" Width="160.65" Height="28.35" Text="[Order.Name]" HorzAlign="Center" Font="Arial, 14pt"/>
+      <TextObject Name="Text5" Left="245.7" Width="141.75" Height="28.35" Text="[Order.Vid]" HorzAlign="Center" Font="Arial, 14pt"/>
+      <TextObject Name="Text7" Left="387.45" Width="66.15" Height="18.9" Text="[Order.Sex]" HorzAlign="Center" Font="Arial, 14pt"/>
+      <TextObject Name="Text9" Left="463.05" Width="113.4" Height="28.35" Text="([Order.Count])" HorzAlign="Center" Font="Arial, 14pt"/>
+      <TextObject Name="Text11" Left="585.9" Width="94.5" Height="18.9" Text="[Order.Price]" HorzAlign="Center" Font="Arial, 14pt"/>
+      <TextObject Name="Text15" Left="18.9" Width="66.15" Height="28.35" Text="[Row#]" HorzAlign="Center" Font="Arial, 14pt"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="144.3" Width="718.2" Height="47.25">
+      <TextObject Name="Text13" Left="604.8" Width="94.5" Height="18.9" Text="[Order.Sum]" Font="Arial, 12pt"/>
+      <TextObject Name="Text14" Left="444.15" Width="151.2" Height="18.9" Text="Сума замовлення" Font="Arial, 12pt"/>
+      <TextObject Name="Text17" Left="66.15" Width="94.5" Height="18.9" Text="[Date]" Font="Arial, 12pt"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>

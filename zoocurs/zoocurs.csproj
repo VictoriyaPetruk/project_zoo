@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4A3B1173-AEFE-43A8-8398-6B02140C796E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>zoocurs</RootNamespace>
+    <AssemblyName>zoocurs</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FastReport">
+      <HintPath>.\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Bars">
+      <HintPath>.\FastReport.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Editor">
+      <HintPath>.\FastReport.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Install">
+      <HintPath>.\FastReport.Install.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.VSDesign">
+      <HintPath>.\FastReport.VSDesign.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Web">
+      <HintPath>.\FastReport.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport_Bars">
+      <HintPath>.\FastReport_Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport_Editor">
+      <HintPath>.\FastReport_Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 8.0.19\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aboutapplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aboutapplication.Designer.cs">
+      <DependentUpon>Aboutapplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Animals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Animals.Designer.cs">
+      <DependentUpon>Animals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="basket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="basket.Designer.cs">
+      <DependentUpon>basket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill.Designer.cs">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillReport.Designer.cs">
+      <DependentUpon>BillReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassAnimals.cs" />
+    <Compile Include="ClassBill.cs" />
+    <Compile Include="ClassDataBase.cs" />
+    <Compile Include="ClassPost.cs" />
+    <Compile Include="ClassSell.cs" />
+    <Compile Include="ClassSerialiaze.cs" />
+    <Compile Include="ClassSupplier.cs" />
+    <Compile Include="ClassVaccine.cs" />
+    <Compile Include="ClassWaybill.cs" />
+    <Compile Include="DataBase.cs" />
+    <Compile Include="Employe.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoSell.cs" />
+    <Compile Include="Mainscreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainscreen.Designer.cs">
+      <DependentUpon>Mainscreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sell.Designer.cs">
+      <DependentUpon>Sell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SellReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SellReport.Designer.cs">
+      <DependentUpon>SellReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff.Designer.cs">
+      <DependentUpon>Staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Supplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supplier.Designer.cs">
+      <DependentUpon>Supplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Waybill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Waybill.Designer.cs">
+      <DependentUpon>Waybill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wayblilnfo.cs" />
+    <EmbeddedResource Include="Aboutapplication.resx">
+      <DependentUpon>Aboutapplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Animals.resx">
+      <DependentUpon>Animals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="basket.resx">
+      <DependentUpon>basket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bill.resx">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillReport.resx">
+      <DependentUpon>BillReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainscreen.resx">
+      <DependentUpon>Mainscreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Sell.resx">
+      <DependentUpon>Sell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SellReport.resx">
+      <DependentUpon>SellReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff.resx">
+      <DependentUpon>Staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Supplier.resx">
+      <DependentUpon>Supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Waybill.resx">
+      <DependentUpon>Waybill.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\заяц.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\заяц1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\заяцъ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="image\lock.png" />
+    <Content Include="image\user.png" />
+    <None Include="Resources\326606-64.png" />
+    <None Include="Resources\211688-642.png" />
+    <None Include="Resources\iconfinder_icon-ios7-arrow-forward_2116881.png" />
+    <None Include="Resources\211688-641.png" />
+    <None Include="Resources\211688-64.png" />
+    <None Include="Resources\iconfinder_icon-ios7-arrow-forward_211688.png" />
+    <None Include="Resources\thumb_l_shtory_27969.jpg" />
+    <None Include="Resources\foto9_31_01_2019.jpg" />
+    <None Include="Resources\1562829578_11.jpg" />
+    <None Include="Resources\unnamed.jpg" />
+    <None Include="Resources\1562829578_1.jpg" />
+    <None Include="Resources\Без названия.jpg" />
+    <None Include="Resources\images %281%29.jpg" />
+    <None Include="Resources\images.jpg" />
+    <None Include="Resources\tmb_207128_2999.jpg" />
+    <None Include="Resources\img-4.jpg" />
+    <None Include="Resources\3257860.jpg" />
+    <None Include="Resources\Screenshot_5-2.jpg" />
+    <None Include="Resources\a5a9a33cdbfbc89_660x300.jpg" />
+    <None Include="Resources\fbcc6fadf4a5d57f06d53d40aede174a.jpg" />
+    <None Include="Resources\7230674d72ec5c2a27d6fa1c792730c8.jpg" />
+    <None Include="Resources\fotooboi-popugay-v-tropikakh.jpg" />
+    <None Include="Resources\popugai-filial-tropikov.960x540.jpg" />
+    <None Include="Resources\iconfinder_edit_add_3219.png" />
+    <None Include="Resources\iconfinder_plus_1646001.png" />
+    <None Include="Resources\iconfinder_ic_delete_forever_48px_3669360.png" />
+    <None Include="Resources\iconfinder_left_arrow_3855594.png" />
+    <None Include="Resources\iconfinder_arrow_left_1930266.png" />
+    <None Include="Resources\iconfinder_f-left_256_282467.png" />
+    <None Include="Resources\лисы.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

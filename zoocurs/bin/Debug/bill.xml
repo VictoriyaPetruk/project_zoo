@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Order>
+    <Id>167</Id>
+    <Name>кролик</Name>
+    <Vid>сірий велетень</Vid>
+    <Sex>м</Sex>
+    <Count>3</Count>
+    <Price>4500</Price>
+    <Id_s>0</Id_s>
+    <Sum>4500</Sum>
+  </Order>
+  <Order>
+    <Id>168</Id>
+    <Name>морська свинка</Name>
+    <Vid>Тедді</Vid>
+    <Sex>м</Sex>
+    <Count>2</Count>
+    <Price>3000</Price>
+    <Id_s>0</Id_s>
+    <Sum>7500</Sum>
+  </Order>
+  <Order>
+    <Id>169</Id>
+    <Name>горлиця</Name>
+    <Vid>звичайна</Vid>
+    <Sex>м</Sex>
+    <Count>1</Count>
+    <Price>400</Price>
+    <Id_s>0</Id_s>
+    <Sum>7900</Sum>
+  </Order>
+</ArrayOfOrder>

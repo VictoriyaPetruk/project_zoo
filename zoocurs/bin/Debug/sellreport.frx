@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="05/14/2020 13:20:35" ReportInfo.Modified="05/14/2020 13:52:33" ReportInfo.CreatorVersion="2013.2.3.0">
+  <Dictionary>
+    <XmlDataConnection Name="Connection" ConnectionString="rijcmlqmmfdjkQxfe1iwShBNGpud378q6VvGL/HcZ56MJVqZXR6qAk6NmbM1wV7FFTbhTMFwYDR2r9P0sRm/MHAfUbP6WJ2Y3lAuckWTGos47S2XsrCan+9FclQmzWPWjSVDB6bg6VAmV8yeL2zbNaSGD4xANlNaEDzMKKoQEfngy9P1MxHIRWB/GumSviKQbeMBpnr">
+      <TableDataSource Name="InfoSell" DataType="System.Int32" Enabled="true" TableName="InfoSell">
+        <Column Name="Date" DataType="System.String"/>
+        <Column Name="Name" DataType="System.String"/>
+        <Column Name="Vid" DataType="System.String"/>
+        <Column Name="Count" DataType="System.String"/>
+        <Column Name="Sum" DataType="System.String"/>
+      </TableDataSource>
+    </XmlDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="66.15">
+      <TextObject Name="Text1" Left="245.7" Top="9.45" Width="292.95" Height="18.9" Text="Інформація про продаж тварин&#13;&#10;" Font="Arial Rounded MT Bold, 12pt, style=Italic"/>
+      <TextObject Name="Text2" Left="595.35" Top="37.8" Width="113.4" Height="18.9" Text="[Date]" Font="Arial, 12pt, style=Italic"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="70.15" Width="718.2" Height="28.35">
+      <TextObject Name="Text4" Left="37.8" Width="94.5" Height="28.35" Border.Lines="All" Text="№" HorzAlign="Center" Font="Arial, 12pt, style=Italic"/>
+      <TextObject Name="Text6" Left="132.3" Width="94.5" Height="28.35" Border.Lines="All" Text="Місяць" HorzAlign="Center" Font="Arial, 12pt, style=Italic"/>
+      <TextObject Name="Text8" Left="226.8" Width="94.5" Height="28.35" Border.Lines="All" Text="Тварина" HorzAlign="Center" Font="Arial, 12pt, style=Italic"/>
+      <TextObject Name="Text10" Left="321.3" Width="151.2" Height="28.35" Border.Lines="All" Text="Вид" HorzAlign="Center" Font="Arial, 12pt, style=Italic"/>
+      <TextObject Name="Text12" Left="472.5" Width="94.5" Height="28.35" Border.Lines="All" Text="Кількість" HorzAlign="Center" Font="Arial, 12pt, style=Italic"/>
+      <TextObject Name="Text14" Left="567" Width="94.5" Height="28.35" Border.Lines="All" Text="Сума" HorzAlign="Center" Font="Arial, 12pt, style=Italic"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="102.5" Width="718.2" Height="18.9" DataSource="InfoSell">
+      <TextObject Name="Text3" Left="37.8" Width="94.5" Height="18.9" Border.Lines="All" Text="[Row#]" HorzAlign="Center" Font="Arial, 12pt, style=Italic"/>
+      <TextObject Name="Text5" Left="132.3" Width="94.5" Height="18.9" Border.Lines="All" Text="[InfoSell.Date]" HorzAlign="Center" Font="Arial, 12pt, style=Italic"/>
+      <TextObject Name="Text7" Left="226.8" Width="94.5" Height="18.9" Border.Lines="All" Text="[InfoSell.Name]" HorzAlign="Center" Font="Arial, 12pt, style=Italic"/>
+      <TextObject Name="Text9" Left="321.3" Width="151.2" Height="18.9" Border.Lines="All" Text="[InfoSell.Vid]" HorzAlign="Center" Font="Arial, 12pt, style=Italic"/>
+      <TextObject Name="Text11" Left="472.5" Width="94.5" Height="18.9" Border.Lines="All" Text="[InfoSell.Count]" HorzAlign="Center" Font="Arial, 12pt, style=Italic"/>
+      <TextObject Name="Text13" Left="567" Width="94.5" Height="18.9" Border.Lines="All" Text="[InfoSell.Sum]" HorzAlign="Center" Font="Arial, 12pt, style=Italic"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="125.4" Width="718.2" Height="18.9"/>
+  </ReportPage>
+</Report>

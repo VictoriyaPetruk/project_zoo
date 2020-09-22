@@ -1,0 +1,53 @@
+C:\Users\Виктория\Documents\Visual Studio 2017\zoocurs\zoocurs\bin\Debug\zoocurs.exe.config
+C:\Users\Виктория\Documents\Visual Studio 2017\zoocurs\zoocurs\bin\Debug\zoocurs.exe
+C:\Users\Виктория\Documents\Visual Studio 2017\zoocurs\zoocurs\bin\Debug\zoocurs.pdb
+C:\Users\Виктория\Documents\Visual Studio 2017\zoocurs\zoocurs\obj\Debug\zoocurs.csprojAssemblyReference.cache
+C:\Users\Виктория\Documents\Visual Studio 2017\zoocurs\zoocurs\obj\Debug\zoocurs.Form1.resources
+C:\Users\Виктория\Documents\Visual Studio 2017\zoocurs\zoocurs\obj\Debug\zoocurs.Properties.Resources.resources
+C:\Users\Виктория\Documents\Visual Studio 2017\zoocurs\zoocurs\obj\Debug\zoocurs.csproj.GenerateResource.cache
+C:\Users\Виктория\Documents\Visual Studio 2017\zoocurs\zoocurs\obj\Debug\zoocurs.csproj.CoreCompileInputs.cache
+C:\Users\Виктория\Documents\Visual Studio 2017\zoocurs\zoocurs\obj\Debug\zoocurs.exe
+C:\Users\Виктория\Documents\Visual Studio 2017\zoocurs\zoocurs\obj\Debug\zoocurs.pdb
+C:\Users\Виктория\Documents\Visual Studio 2017\zoocurs\zoocurs\bin\Debug\MySql.Data.dll
+C:\Users\Виктория\Documents\Visual Studio 2017\zoocurs\zoocurs\bin\Debug\Google.Protobuf.dll
+C:\Users\Виктория\Documents\Visual Studio 2017\zoocurs\zoocurs\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Виктория\Documents\Visual Studio 2017\zoocurs\zoocurs\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Виктория\Documents\Visual Studio 2017\zoocurs\zoocurs\bin\Debug\Renci.SshNet.dll
+C:\Users\Виктория\Documents\Visual Studio 2017\zoocurs\zoocurs\bin\Debug\MySql.Data.xml
+C:\Users\Виктория\Documents\Visual Studio 2017\zoocurs\zoocurs\obj\Debug\zoocurs.csproj.CopyComplete
+C:\Users\Виктория\Documents\Visual Studio 2017\zoocurs\zoocurs\obj\Debug\zoocurs.mainform.resources
+C:\Users\Виктория\Documents\Visual Studio 2017\zoocurs\zoocurs\obj\Debug\zoocurs.basketfrm.resources
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\bin\Debug\zoocurs.exe.config
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\bin\Debug\zoocurs.exe
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\bin\Debug\zoocurs.pdb
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\bin\Debug\MySql.Data.dll
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\bin\Debug\Google.Protobuf.dll
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\bin\Debug\Renci.SshNet.dll
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\bin\Debug\MySql.Data.xml
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\obj\Debug\zoocurs.csprojAssemblyReference.cache
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\obj\Debug\zoocurs.basketfrm.resources
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\obj\Debug\zoocurs.Autorization.resources
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\obj\Debug\zoocurs.mainform.resources
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\obj\Debug\zoocurs.Properties.Resources.resources
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\obj\Debug\zoocurs.csproj.GenerateResource.cache
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\obj\Debug\zoocurs.csproj.CoreCompileInputs.cache
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\obj\Debug\zoocurs.csproj.CopyComplete
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\obj\Debug\zoocurs.exe
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\obj\Debug\zoocurs.pdb
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\obj\Debug\zoocurs.Aboutapplication.resources
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\obj\Debug\zoocurs.Animals.resources
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\obj\Debug\zoocurs.Bill.resources
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\obj\Debug\zoocurs.Sell.resources
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\obj\Debug\zoocurs.Staff.resources
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\obj\Debug\zoocurs.Supplier.resources
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\obj\Debug\zoocurs.Waybill.resources
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\bin\Debug\FastReport.Bars.dll
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\bin\Debug\FastReport.dll
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\bin\Debug\FastReport.Editor.dll
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\bin\Debug\FastReport.Install.dll
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\bin\Debug\FastReport.VSDesign.dll
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\bin\Debug\FastReport.Web.dll
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\obj\Debug\zoocurs.BillReport.resources
+C:\Users\Виктория\Documents\Учеба\Visual Studio 2017 3 курс\zoocurs\zoocurs\obj\Debug\zoocurs.SellReport.resources
